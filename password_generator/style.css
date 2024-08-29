@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 22%,
+    rgba(253, 29, 29, 1) 68%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.container h1 {
+  color: white;
+  margin-left: 37%;
+  margin-top: 40vh;
+}
+
+
+img {
+  
+  height: 2.4rem;
+  border-radius: 4rem;
+  border: none;
+  
+}
+
+img:hover {
+  opacity: 60%;
+}
+#energy{
+    /* height: 2.3rem; */
+    height:1.5rem;
+}
+
+#password:hover {
+  opacity: 60%;
+}
+#password {
+  height: 2rem;
+  border-radius: 4rem;
+  width: 20rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  background-color: wheat;
+  color: black;
+}
+span{
+    /* text-decoration: underline; */
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 2rem;
+    height: 2rem;
+    background-color: green;
+    width: 16rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+#energy{
+    /* padding-right: 2rem; */
+    margin-right: 1rem;
+}
+#btn::before{
+    
+}
+#btn:active {
+    /* Styles when button is clicked */
+    background-color: #3e8e41; /* Darker shade of the original color */
+    transform: scale(0.95); /* Slightly shrink the button */
+}
+img:active {
+    /* Styles when button is clicked */
+    background-color: #3e8e41; /* Darker shade of the original color */
+    transform: scale(0.95); /* Slightly shrink the button */
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
